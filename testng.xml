@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Check24 Application Test Suite">
+
+	<listeners>
+		<listener class-name="com.chk24.util.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Check24 Test Cases" parallel="false">
+		<classes>
+			<class name="com.chk24.testcases.TravelTest"></class>
+		</classes>
+	</test>
+</suite>
